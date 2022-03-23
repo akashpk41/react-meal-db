@@ -1,7 +1,8 @@
+import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <div>
-      <h1> Welcome To Meal DB </h1>
+      <Navbar />
     </div>
   );
 }
