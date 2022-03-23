@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Food from "./Food/Food";
-
+import "./Food/Food.css";
 const Foods = () => {
   const [foods, setFoods] = useState([]);
   // ! fetch all food data from mealdb api
@@ -11,11 +11,15 @@ const Foods = () => {
   }, []);
 
   return (
-    <div>
-      <h1>total foods {foods.length}</h1>
-      {foods.map((food) => (
-        <Food key={food.idMeal} food={food} />
-      ))}
+    <div className="container">
+      <div className="food-container">
+        {foods.map((food) => (
+          <Food key={food.idMeal} food={food} />
+        ))}
+      </div>
+      <div className="food-details">
+        <h3>Food Info  </h3>
+      </div>
     </div>
   );
 };

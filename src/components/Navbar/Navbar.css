@@ -1,28 +1,28 @@
 .navbar {
-     background: #20b24bb5;;
-     display: flex;
-     align-items: center;
-     justify-content: space-evenly;
+  background: #20b24bb5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .navbar .brand-name {
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-size: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  color: #372401;
 }
 
-.navbar ul  {
-     display:flex;
-
+.navbar ul {
+  display: flex;
 }
 .navbar ul li {
-     margin-left: 10px;
-     list-style-type: none;
+  margin-left: 10px;
+  list-style-type: none;
 }
 .navbar ul li a {
-    text-decoration: none;
-    font-size: 22px;
-    color: white;
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
 }
 .navbar ul li a:hover {
-
-    color: orange;
+  color: orange;
 }

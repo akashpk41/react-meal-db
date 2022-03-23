@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.food-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.food-details h3 {
+  text-align: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 25px;
+}
+
+.card {
+  margin: 30px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 300px;
+  height: 530px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px;
+  position: relative;
+}
+.card img {
+  width: 300px;
+  border-radius: 5px;
+}
+.card .food-name {
+  text-align: center;
+  color: #4c3606;
+}
+.card p {
+  font-size: 18px;
+  color: #292121;
+  font-weight: 500;
+}
+
+.btn {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-left: -10px;
+  padding: 10px;
+  border: none;
+  background: #f5a12a;
+  font-size: 20px;
+  font-weight: bold;
+ 
+  border-top:2px solid gray ;
+}
+
+.btn:hover {
+  background: #2af5a7;
+}
