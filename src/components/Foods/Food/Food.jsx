@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Food = () => {
+const Food = ({food}) => {
+     console.log(food);
+
      return (
-          <div>
-               
+          <div  >
+
           </div>
      );
 };
