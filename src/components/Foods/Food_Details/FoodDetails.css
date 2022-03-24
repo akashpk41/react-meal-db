@@ -1,0 +1,11 @@
+.food-details-container {
+  background: #5d59eb8f;
+  padding: 10px;
+  height: 100%;
+  position: sticky;
+  top: 0;
+}
+.food-details-container h3 {
+  text-align: center;
+  color: white;
+}
